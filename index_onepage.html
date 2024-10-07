@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hachiken Kazuki</h1>
+        <nav>
+            <a href="#about">Profile</a> |
+            <a href="#research">Research</a> |
+            <a href="#projects">Project</a> |
+            <a href="#youtube">YouTube</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="hero-section">
+        <h1>Home</h1>
+    </div>
+    <div class="content-section" id="about">
+        <section>
+            <h2>Profile</h2>
+            <div class="profile">
+                <h3>About Me</h3>
+                <p>Name : 八軒和輝</p>
+                <p>Birth : 2000年6月6日（滋賀県出身）</p>
+                <p>Univ. : 東京大学大学院 情報理工学研究科 システム情報学専攻</p>
+                <p>Grade : 修士１回</p>
+                <p>Lab : <a href="https://www.brain.ipc.i.u-tokyo.ac.jp/" target="_blank">天野研究室</a></p>
+            </div>
+            <div class="profile">
+                <h3>Background</h3>
+                <p>2019年3月 滋賀県立守山高等学校 卒業</p>
+                <p>2020年4月 京都大学 工学部 物理工学科 入学</p>
+                <p>2022年8月-10月 アリゾナ州立大学 短期留学</p>
+                <p>2023年3月 京都大学 工学部 物理工学科 材料工学専攻 <a href="http://kyuge.web.fc2.com" target="_blank">ナノ構造学分野 弓削グループ</a> 配属</p>
+                <p>2024年3月 京都大学 工学部 物理工学科 材料工学専攻 卒業</p>
+                <p>2024年4月 東京大学大学院 情報理工学研究科 システム情報学専攻 入学</p>
+            </div>
+        </section>
+    </div>
+    <div class="content-section" id="research">
+        <section>
+            <h2>Research</h2>
+            <div class="project">
+                <h3>線形システム結合系の非線形性に対する微細構造の影響</h3>
+                <div class="project-content reverse">
+                    <div class="project-text">
+                        <p>これは2023年度に京都大学ナノ構造学研究室で行った卒業研究である。</p>
+                        <p>外部からパラメータ操作して望ましい物性を有する結晶性の固体材料を設計する上で、カノニカル平均の非線形性の理解が重要である。そこで先行研究では、様々な配位数の結晶系の非線形性を系統的に調べるため、仮想的な線形システムの結合で得られる、解析が比較的容易な数理モデル、CLSが提案された。</p>
+                        <p>しかし、これは構造を記述する相関関数とその状態密度が連続分布であるという前提の下にあり、現実系では結晶に起因した構成元素の空間的な拘束により、分布が離散的で線形システムの状態密度から大きく外れた領域が存在する。</p>
+                        <p>そこで、この影響を考慮するため、従来のCLSに微細構造を加えたより現実系に近いモデルを作り、非線形性の解析を行った。配位数変化に伴う非線形性の変化を調べる中で、この微細構造が及ぼす様々な影響を解明することができた。</p>
+                        <p>論文は<a href="./image/final.pdf" target="_blank">こちら</a>。</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./image/Kyoto1.png" alt="Research Image" />
+                        <img src="./image/Kyoto2.png" alt="Research Image" />
+                        <img src="./image/Kyoto3.png" alt="Research Image" />
+                    </div>
+                </div>
+            </div>
+            <h3>飲酒時の脳活動（脳内ネットワークの解析）</h3>
+            <div class="project-content reverse">
+                <div class="project-text-image">
+                    <div class="project-text">
+                        <p>これは東京大学大学院天野研究室において現在行なっている研究である。</p>
+                        <p>現在、アルコール飲料会社と共同で飲酒時の脳科学に関する研究を行なっている。MRIを用いて飲酒時の脳状態を計測し、呼吸、心拍などの生体情報と共に解析することで、飲酒に伴う心理・脳・生体反応の理解を目指している。</p>
+                        <p>この研究は将来的に、脳波制御による飲酒状態を再現と、飲酒による社会問題の解決に繋がると信じている。飲酒に伴う健康リスクを回避した飲酒状態の再現が可能になれば、お酒に代わる新たな代替品の発明と、泥酔によるトラブル件数やアルコール中毒者数の減少につながる。</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./image/Tokyo1.png" alt="Research Image 2" />
+                        <img src="./image/Tokyo2.png" alt="Research Image 2" />
+                        <img src="./image/Tokyo3.png" alt="Research Image 2" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="content-section" id="projects">
+        <section>
+            <h2>Project</h2>
+            <div class="project">
+                <h3>S&P500 上昇下落予測モデル</h3>
+                <p>ゼミ活動では、某都市銀行のデータ協力の元、Transformerを用いた機械学習をベースにしたS&P500の上昇下落予測モデルの開発を行ないました。</p>
+                <p>資産運用のために世界各国の株や国債への投資を行う銀行が多く、この開発は銀行の安定した資産運用と社会的信頼の獲得に直結するため着手しました。</p>
+                <p>生成AIにおいて中心的な役割を果たしている大規模言語モデルですが、この開発では、その大規模言語モデルの元となるTransformerモデルを用いました。Transformerモデルを用いて株価の変動の長期的な依存関係を配慮することで、長期・短期両方のトレンドから上昇下落をより正確に予測することを目指しました。</p>
+                <p>最終的には、協力した某都市銀行の従来の予測モデルと比較して、予測性能を1%以上向上させることができました。</p>
+            </div>
+            <div class="project">
+                <h3>ブログ投稿アプリ（個人開発）</h3>
+                <p>皆さんは「積読」という言葉を耳にしたことがありますか。書籍を購入したものの、最後まで読まれずに放置された、つまり、「積まれた」状態のことを指す言葉です。この言葉には、「途中で読書や学習を諦めた」という悪いイメージがつきまとっていると思います。</p>
+                <p>しかし、購入した書籍を完読せずに放置することは果たして本当に良くないことなのでしょうか</p>
+                <p>私は、読み切ったかどうかは関係なく、数ある書籍の中から選び、わざわざお金を払って購入したその書籍には、その人の好奇心や興味・関心が表現されていると思います。
+                <p>そんな本たちが集まって、その人のパーソナリティの表現される「本棚」を共有しあえる場を作ろう。</p>
+                <p>そんな思いから開発を進めました。</p>
+                <p>
+                    使用言語 : JavaScript, CSS, HTML, PHP
+                    <br>使用ツール : AWS, MySQL
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="content-section" id="youtube">
+        <section>
+            <h2>YouTube</h2>
+            <div class="project">
+                <h3>FIFA World Cup 2022 Qatar</h3>
+                <p>国内海外問わず、旅行が趣味であり、これまでに様々な国や地域へ旅行に行きました。</p>
+                <p>中でも特に印象深いのは2022年にカタールで行われたサッカーW杯を観戦しにカタールへ訪れた思い出です。「三苫の1ミリ」で話題になった日本のグループステージ第3戦スペイン戦を現地観戦しました。</p>
+                <p>現地で味わった興奮をまとめた<a href="https://youtu.be/kxl1UKe4VSg?si=6lDYaSNWVjrLWxuJ" target="_blank">Vlog</a>をぜひご覧ください。</p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kxl1UKe4VSg"
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+    
+    <div class="content-section" id="contact">
+        <section>
+            <h2>Contact</h2>
+            <p>Mail: hachiken-kazuki-63e[at]g.ecc.u-tokyo.ac.jp</p>
+            <p>Git : <a href="https://github.com/8kazu" target="_blank">8kazu</a></p>
+            <p>Lab: <a href="https://www.brain.ipc.i.u-tokyo.ac.jp/" target="_blank">天野研究室</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 KazukiHachiken. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
